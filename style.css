@@ -1,0 +1,38 @@
+body{
+    background:black;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+#mapdiv{
+    width: 2000px;
+    height:1000px;
+    margin-left: 500px;
+}
+#mapdiv path{
+    stroke:black;
+    stroke-width: 0.5px;
+    transition: fill 0.3s;
+}
+#mapdiv path:hover{
+    stroke:white;
+    stroke-width:3px;
+}
+#loading{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+    color: black;
+    position: fixed;
+    z-index: 100;
+    justify-content: center;
+    align-items: center;
+
+}
+h1{
+    font-size: 4rem;
+}
